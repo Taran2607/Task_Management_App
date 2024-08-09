@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #007BFF;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button.btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  button.btn:hover {
+    background: #0056b3;
+  }
+  
+  #taskList {
+    margin-top: 1rem;
+  }
+  
+  .task {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .task h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .task a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .task a:hover {
+    text-decoration: underline;
+  }
+  
+  
